@@ -1,8 +1,26 @@
-body {
+body 
+{
     background-color: beige;
     font-family: Arial, Helvetica, sans-serif;
 }
-h1 {
+h1 
+{
     text-align: center;
     color:slategray;
+}
+.about
+ {
+    color:blueviolet
+}
+.skills
+{
+    color:crimson
+}
+.projects
+{
+    color:forestgreen
+}
+.contact
+{
+    color:palegreen
 }
