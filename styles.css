@@ -8,19 +8,19 @@ h1
     text-align: center;
     color:slategray;
 }
-.about
+h2.about
  {
     color:blueviolet;
 }
-.skills
+h2.skills
 {
     color:crimson;
 }
-.projects
+h2.projects
 {
     color:forestgreen;
 }
-.contact
+h2.contact
 {
     color:palegreen;
 }
