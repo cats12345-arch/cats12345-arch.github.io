@@ -1,0 +1,52 @@
+/* Structure */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background:url("images/crochet_background.jpg");
+    background-size: cover;
+}
+
+#content {
+    width: 70%;
+    margin: auto;
+    padding: 1%;
+    border-radius: 5px;
+    background: #024959;
+}
+
+/* Images */
+#guy-in-snow {
+    float: right;
+    margin: 2%;
+}
+
+img {
+    border: 5px solid #4494A6;
+}
+
+/* Typography */
+h1, h2 {
+    color: #4494A6;
+}
+
+p {
+    font-size: 125%;
+    color: #DCEEF2;
+}
+
+/* Table */
+table {
+    border-collapse: collapse;
+    background-color: #F2A0C6;
+}
+th, td {
+    border:1px solid #4494A6;
+    padding: 5px 10px;
+}
+
+th {
+    color: #D962AF;
+}
+
+td {
+    color: #DCEEF2;
+}
