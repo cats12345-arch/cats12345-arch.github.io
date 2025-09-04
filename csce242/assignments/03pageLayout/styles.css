@@ -31,3 +31,129 @@ a {
     text-decoration: none;
     color: white;
 }
+
+#ideas {
+    text-align: center;
+    color: white;
+}
+
+#ideas p{
+    text-align: left;
+}
+
+#ideas h2 {
+    text-align: left;
+}
+
+.white {
+    color: white;
+}
+
+.titles {
+    background: #D99D55;
+    margin: 8px;
+    text-align: center;
+}
+
+.titles p {
+    text-align: left;
+}
+
+h2 {
+    margin: 0px;
+    padding: 10px;
+}
+
+p {
+    margin: 0px;
+    padding: 10px;
+}
+
+.gallery {
+    background: #F2CF8D;
+    margin: 8px;
+    text-align: center;
+}
+
+.gallery p {
+    text-align: left;
+}
+
+.one {
+    background-color: #F2AB27;
+}
+
+.one ul {
+    padding: 10px;
+    text-decoration: underline;
+    color: white;
+}
+
+footer {
+    background: #F2AB27;
+    text-align: center;
+    margin-top: 3px;
+}
+
+@media only screen and (min-width: 768px) {
+    
+    .columns {
+        display: flex;
+    }
+
+    #main-nav li {
+        flex: 1;
+    }
+
+    .header-list {
+        margin: 1px;
+    }
+
+    #ideas {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #ideas section {
+        width: 50%;
+    }
+
+    .one {
+        flex: 1;
+    }
+
+    .two {
+        flex: 2;
+    }
+    
+    .three {
+        flex: 3;
+    }
+
+    /* I dont know why but having the .columns before the .two or .three fixed it???? in a confused and dazed state i tried that and it worked for some reason and i felt like I must share that information */
+    #titles {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #titles section {
+        width: 49.7%;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+    }
+
+    #gallery {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #gallery .gallery {
+        width: 33%;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+    }
+}
