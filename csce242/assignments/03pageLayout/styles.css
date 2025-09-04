@@ -15,6 +15,7 @@ body {
     text-align: center;
 }
 
+/* typography */
 .header-list {
     background: #F2AB27;
     margin: 3px;
@@ -69,6 +70,7 @@ p {
     padding: 10px;
 }
 
+/* gallery */
 .gallery {
     background: #F2CF8D;
     margin: 8px;
@@ -89,12 +91,15 @@ p {
     color: white;
 }
 
+/* footer */
 footer {
     background: #F2AB27;
     text-align: center;
     margin-top: 3px;
+    color: white;
 }
 
+/* big screen */
 @media only screen and (min-width: 768px) {
     
     .columns {
