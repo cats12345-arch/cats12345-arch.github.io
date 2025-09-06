@@ -1,0 +1,308 @@
+:root {
+    --black: #000000;
+    --red: #75000A;
+    --white: #FFFFFF;
+    --black-text: #14151A;
+    --white-text: #FFFFFF;
+    --red-text: #75000A;
+    --blue: #1F404D;
+}
+
+/* Structure */
+body {
+    background:var(--white);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+#content {
+    margin: auto;
+    background:var(--white);
+    border-radius: 5px;
+}
+
+/* Header small */
+#main-header {
+    background:var(--black);
+}
+
+img {
+    max-width: 100%;
+}
+
+.hide-small {
+    display:none;
+}
+
+.columns-small {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.columns-small div {
+    margin: 10px;
+    margin-bottom: 2px;
+}
+
+.header-limited {
+    width: 35%;
+    padding-left: 10px;
+}
+
+.header-small p {
+    color:var(--white-text);
+    margin: 10px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 140%;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* Main-content */
+.red-main {
+    color:var(--red-text);
+}
+
+#section-header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 160%;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.black-main {
+    color:var(--black-text);
+}
+
+#section-body {
+    font-size: 140%;
+    margin: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+    line-height: 125%;
+}
+
+/* Red Section */
+#red-section {
+    background:var(--red);
+}
+
+#red-section h1 {
+    color:var(--white-text);
+    font-weight: bold;
+    font-size: 140%;
+    margin-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#red-section p {
+    color:var(--white);
+    font-size: 110%;
+    margin-left: 30px;
+}
+
+.red-section-text {
+    padding-bottom: 20px;
+}
+
+.black-box {
+    background:var(--black);
+    color: var(--white-text);
+    display: inline;
+    border: solid 2px var(--white);
+    margin-left: 30px;
+    padding: 6px;
+}
+
+.red-section-img {
+    padding: 25px;
+}
+
+/* Find program */
+#find-program {
+    text-align: center;
+    width: 95%;
+}
+
+.columns {
+    display: flex;
+}
+
+.text {
+    font-size: 110%;
+    line-height: 125%;
+}
+
+#find-program .columns {
+    justify-content: space-around;
+}
+
+#find-program .columns p {
+    background:var(--red);
+    color: var(--white-text);
+    display: inline;
+    border: solid 2px var(--white);
+    padding: 8px;
+    box-shadow: 1px 1px 2px 2px var(--black);
+}
+
+/* Impact */ 
+#impact {
+    position: relative;
+    text-align: center;
+    background:var(--black);
+
+}
+
+#impact .box {
+    background:var(--black);
+    display: inline;
+    position: absolute;
+    max-width: 90%;
+    bottom: 0px;
+    left: 15px;
+    padding: 20px;
+}
+
+#impact h1 {
+    color:var(--white-text);
+    font-size: 130%;
+}
+
+#impact p {
+    color:var(--white-text);
+}
+
+.red-box {
+    background:var(--red);
+    color: var(--white-text);
+    display: inline;
+    border: solid 2px var(--white);
+    padding: 8px;
+}
+
+/* quote */
+#quote {
+    background:var(--red);
+    text-align: center;
+    padding: 20px;
+}
+
+#quote img {
+    width: 350px;
+    border-radius: 175px;
+}
+
+#quote p {
+    color:var(--white-text);
+    text-align: left;
+    padding-left: 10px;
+}
+
+.big-text {
+    font-size: 130%;
+}
+
+/* connections */
+#connections {
+    background:var(--blue);
+    padding: 20px;
+}
+
+.connections-text {
+    margin: 30px;
+}
+
+#connections h1 {
+    color:var(--white-text);
+}
+
+#connections p {
+    color:var(--white-text);
+}
+
+#connections img {
+    width: 95%;
+    padding: 20px;
+}
+
+#connections .text {
+    margin-bottom: 30px;
+}
+
+/* News */
+#news {
+    max-width: 95%;
+    text-align: center;
+}
+
+#news h1 {
+    color:var(--red-text);
+}
+
+#news .columns-big h1 {
+    text-align: left;
+    margin-left: 20px;
+}
+
+#news .columns-big p{
+    margin-left: 20px;
+}
+
+#news img {
+    padding: 25px;
+}
+
+#news .red-box-big {
+    background:var(--red);
+    color: var(--white-text);
+    display: block;
+    border: solid 2px var(--white);
+    padding: 8px;
+    text-align: center;
+    box-shadow: 1px 1px 2px 2px var(--black);
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+/* Thinkers */
+#thinkers {
+    background:var(--black);
+    color:var(--white-text);
+    padding: 20px;
+}
+
+#thinkers h1 {
+    padding: 10px;
+}
+
+.thinkers-text {
+    padding: 10px;
+}
+
+#thinkers .red-box {
+    margin-left: 10px;
+}
+#thinkers img {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
