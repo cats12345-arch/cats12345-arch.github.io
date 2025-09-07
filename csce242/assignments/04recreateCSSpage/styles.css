@@ -26,6 +26,14 @@ body {
     background:var(--black);
 }
 
+.header-links {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background:var(--black);
+    z-index: 10000;
+}
+
 img {
     max-width: 100%;
 }
@@ -59,6 +67,7 @@ img {
 .header-link {
     display: none;
 }
+
 .header-small p {
     color:var(--white-text);
     margin: 10px;
