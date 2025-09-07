@@ -300,9 +300,157 @@ img {
 #thinkers .red-box {
     margin-left: 10px;
 }
+
 #thinkers img {
     padding-top: 25px;
     padding-bottom: 25px;
 }
+
+/* advertise */
+#advertise {
+    text-align: center;
+}
+
+#advertise h1 {
+    color:var(--red-text);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 120%;
+    padding-top: 15px;
+}
+
+#advertise img {
+    width: 32px;
+    height: 32px;
+    padding: 8px;
+}
+
+#logos {
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    padding-bottom: 12px;
+}
+
+#logos::after {
+    content: "";
+    background: black;
+    position: absolute;
+    bottom: 0;
+    height: .5%;
+    width: 50%;
+}
+
+#logos .black-box {
+    box-shadow: 1px 1px 2px 2px var(--black);
+}
+
+#links {
+    color:var(--red-text);
+    font-weight: bold;
+    position: relative;
+    padding: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#links::after {
+    content: "";
+    background: black;
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    height: .5%;
+    width: 50%;
+}
+
+#locations {
+    font-size: 75%;
+}
+
+#locations a {
+    color:var(--red-text);
+}
+
+/* footer */
+#main-footer {
+    background:var(--red);
+    color:var(--white-text);
+}
+
+#company img{
+    width: 32px;
+    height: 32px;
+    padding: 20px;
+}
+
+#company {
+    justify-content: center;
+}
+
+#logo {
+    width: auto;
+    height: auto;
+    max-width: 40%;
+    padding-top: 32px;
+}
+
+#usc {
+    text-align: center;
+}
+
+.majors {
+    font-weight: bold;
+    display: flex;
+    font-size: 90%;
+    justify-content: space-between;
+}
+
+.top {
+    border-bottom: solid 1px var(--white);
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 120%;
+    margin-bottom: 0px;
+}
+
+.footer-links {
+    width: 95%;
+    padding-left: 25px;
+}
+
+.other-links {
+    font-size: 90%;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+
+/* Secondary footer */
+#secondary-footer {
+    background:var(--black);
+    color:var(--white-text);
+    font-size: 80%;
+    font-weight: bold;
+}
+
+#last-footer {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#last-footer p {
+    padding: 4px;
+    border-right: solid 1px var(--white);
+}
+
+#last-footer p:last-child {
+    border: none;
+}
+
+#last-footer p:first-child {
+    border: none;
+}
+
+
+
+
 
 
