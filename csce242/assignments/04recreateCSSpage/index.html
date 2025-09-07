@@ -8,20 +8,17 @@
     <div id="content">
         <header id="main-header">
             <div class="header-links">
-                <ul class="hide-small">
-                    <li>Calender</li>
-                    <li>Map</li>
-                    <li>Directory</li>
-                    <li>Apply</li>
-                    <li>Give</li>
-                    <li>Gateways ></li>
-                </ul>
-                <div class="hide-small" class="columns">
-                    <div>
-                        <div>
-                            <img src="https://assets.sc.edu/_global_resources/img/usc_logo_horizontal_rgb_g_rev.svg">
-                        </div>
-                        <p>Univserity of South Carolina</p>
+                <div class="header-link" class="columns" class="hide-small">
+                    <p>Calender</p>
+                    <p>Map</p>
+                    <p>Directory</p>
+                    <p>Apply</p>
+                    <p>Give</p>
+                    <p>Gateways ></p>
+                </div>
+                <div id="logo-college" class="hide-small" class="columns">
+                    <div class="smaller">
+                        <img src="https://assets.sc.edu/_global_resources/img/usc_logo_horizontal_rgb_g_rev.svg">
                     </div>
                     <p>McCausland College of Arts and Sciences</p>
                 </div>
@@ -44,9 +41,18 @@
                     <p>McCausland College of Arts and Sciences</p>
                 </div>
             </div>
+            <div id="other-header-links" class="hide-small">
+                <p>Academics</p>
+                <p>Research</p>
+                <p>Connect</p>
+                <p>About Us</p>
+                <div>
+                    <img src="images/hamburger.png">
+                </div>
+            </div>
         </header>
         <main id="main-content">
-            <div>
+            <div id="img-with-college">
                 <img src="https://place-hold.it/1920x1080">
                 <div class="red-main" id="section-header">
                     <p>McCausland College of Arts and Sciences</p>
@@ -55,14 +61,14 @@
             <div class="black-main" id="section-body">
                 <p>Discover more choices and more opportunities to build essential knowledge and skills for unlimited career paths. We prepare students to approach modern challenges with curiosity and lead with purpose in an ever-changing world. Through broad academics, groundbreaking research and real-world experience, our students and faculty drive progress in South Carolina and beyond.</p>
             </div>
-            <div id="red-section" class="columns">
-                <div>
+            <div id="red-section" class="columns-large">
+                <div class="center-text">
                     <h1>Prepared for the Future</h1>
                     <p class="red-section-text">With 38 majors, 65 minors and hands-on experiences, our rigorous and diverse programs prepare students to thrive in a global world. Pair disciplines, explore your passions and build a path to a meaningful career. </p>
                     <p class="black-box">Academics >></p>
-                    <div class="red-section-img">
-                        <img src="https://place-hold.it/800x530">
-                    </div>
+                </div>
+                <div class="red-section-img">
+                    <img src="https://place-hold.it/800x530">
                 </div>
             </div>
             <div id="find-program">
@@ -82,16 +88,16 @@
                     <p class="red-box">Research & Discovery >></p>
                 </div>
             </div>
-            <div id="quote" class="columns-big">
+            <div id="quote" class="columns-large">
                 <div>
                     <img src="https://place-hold.it/350x350">
                 </div>
-                <div>
+                <div class="center-text">
                     <p class="big-text">USC has been integral to my growth. It has shaped me into a better person, both personally and professionally, and I will always cherish the experiences and relationships that have empowered me along the way.</p>
                     <p>— Luz Clarita Amezcua Reyes, 2025 International Studies</p>
                 </div>
             </div>
-            <div id="connections" class="columns-big">
+            <div id="connections" class="columns-large">
                 <div class="connections-text">
                     <h1>A Powerful Network of Connections</h1>
                     <p class="text">Our graduates join a network of more than 75,000 alumni. Learn how you can stay connected with our community and support the next generation of Carolina students.</p>
@@ -105,8 +111,8 @@
                 <div>
                     <h1>News</h1>
                 </div>
-                <div class="columns-big">
-                    <div>
+                <div class="columns-large">
+                    <div class="limited">
                         <div>
                             <img src="https://place-hold.it/435x435">
                         </div>
@@ -116,7 +122,7 @@
                             <p class="red-box-big">Explore the Exhibition >></p>
                         </div>
                     </div>
-                    <div>
+                    <div class="limited">
                         <div>
                             <img src="https://place-hold.it/435x435">
                         </div>
@@ -126,7 +132,7 @@
                             <p class="red-box-big">Discover the Mission >></p>
                         </div>
                     </div>
-                    <div>
+                    <div class="limited">
                         <div>
                             <img src="https://place-hold.it/435x435">
                         </div>
@@ -138,7 +144,7 @@
                     </div>
                 </div>
             </div>
-            <div  id="thinkers" class="columns-big">
+            <div  id="thinkers" class="columns-large">
                 <div>
                     <h1>Empowering the next generation of thinkers</h1>
                     <p class="thinkers-text">Our graduates shape the world as researchers, educators, public servants, artists and innovators. With 38 majors, 65 minors and 16 interdisciplinary programs, the College of Arts and Sciences offers countless ways to explore your purpose and drive meaningful change.</p>
@@ -148,7 +154,7 @@
                     <img src="https://place-hold.it/600x450">
                 </div>
             </div>
-            <div id="advertise" class="columns-big">
+            <div id="advertise" class="columns-large">
                 <div>
                     <h1>McCausland College of Arts and Sciences >></h1>
                     <div id="logos" class="columns">
@@ -175,24 +181,28 @@
                     </div>
                 </div>
                 <div>
-                    <div id="links" class="columns-big">
+                    <div id="links" class="columns-large">
                         <div>
-                            <p>About us >></p>
+                            <div>
+                                <p>About us >></p>
+                            </div>
+                            <div>
+                                <p>Give >></p>
+                            </div>
+                            <div>
+                                <p>Calendar >></p>
+                            </div>
                         </div>
-                        <div>
-                            <p>Give >></p>
-                        </div>
-                        <div>
-                            <p>Calendar >></p>
-                        </div>
-                        <div>
-                            <p>Directory >></p>
-                        </div>
-                        <div>
-                            <p>Contact us >></p>
-                        </div>
-                        <div>
-                            <p>News >></p>
+                            <div>
+                                <div>
+                                <p>Directory >></p>
+                            </div>
+                            <div>
+                                <p>Contact us >></p>
+                            </div>
+                            <div>
+                                <p>News >></p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -204,7 +214,7 @@
             </div>
         </main>
         <footer id="main-footer">
-            <div id="usc" class="columns-big">
+            <div id="usc" class="columns-large">
                 <div>
                     <img id="logo" src="https://assets.sc.edu/_global_resources/img/usc_logo_horizontal_rgb_g_rev.svg">
                 </div>
@@ -223,7 +233,7 @@
             <div class="columns-large">
                 <div class="footer-links">
                     <p class="top">Colleges & Schools</p>
-                    <div class="hide-small" class="columns">
+                    <div id="flex" class="hide-small" class="columns">
                         <div>
                             <p>Arts and Sciences</p>
                             <p>Business</p>
@@ -247,7 +257,7 @@
                             <p>South Carolina Honors College</p>
                         </div>
                     </div>
-                    <div class="majors" class="hide-big" class="columns">
+                    <div id="hide-big" class="majors" class="columns">
                         <div>
                             <p>Arts and Sciences</p>
                             <p>Business</p>
