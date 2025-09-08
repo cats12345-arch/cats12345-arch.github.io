@@ -54,6 +54,13 @@ body {
         width: 30%;
     }
 }
+
+#projects div {
+    background-color: #BA8C5B;
+    margin: 5%;
+    margin-left: 6%;
+}
+
 /* lists */
 li {
     background-color: #BA8C5B;
