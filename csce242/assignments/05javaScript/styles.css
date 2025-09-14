@@ -1,0 +1,66 @@
+body {
+    background: #F1F2E9;
+}
+
+img {
+    max-width: 100%;
+    width: 80%;
+    margin: 5%;
+}
+
+h1 {
+    color: #587F86;
+    text-align: center;
+}
+
+p {
+    color: #587F86;
+}
+
+.first {
+    padding: 8px;
+}
+
+.second {
+    padding: 16px;
+}
+
+.third {
+    padding: 24px;
+}
+
+.box {
+    background: #F2F0D5;
+    border: solid 1px #587F86;
+}
+
+button {
+    margin: 12px;
+}
+.red {
+    color: #D77D7E;
+}
+
+footer {
+    color: #587F86;
+    text-align: center;
+}
+
+input {
+    margin: 24px;
+}
+
+.hide {
+    display: none;
+}
+
+@media only screen and (min-width: 800px) {
+    .columns {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .box {
+        width: 30%;
+    }
+}
