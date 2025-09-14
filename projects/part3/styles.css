@@ -1,0 +1,150 @@
+.columns {
+    display: flex;
+    align-items: center;
+}
+
+#body {
+    width: 95%;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+}
+/* Header */
+#header {
+    width: 90%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#header p{
+    padding-left: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* footers */
+footer {
+    width: 95%;
+}
+
+#footer {
+    justify-content: flex-end;
+}
+
+#footer p {
+    padding-left: 12px;
+}
+
+/* index.html */
+
+/* Main */
+main {
+    width: 90%;
+    margin: auto;
+}
+
+/* image with text in it */
+/* Ok I know it looks stupid but im too lazy to change the html */
+#absolute {
+    position: relative;
+}
+
+#relative {
+    position: absolute;
+    bottom: 8%;
+    padding-left: 10%;
+    padding-right: 3%;
+    background: white;
+}
+
+#weekly-bookclub div{
+    padding: 12px;
+}
+
+/* browse.html */
+main {
+    width: 90%;
+}
+
+#browse {
+    justify-content: space-between;
+}
+
+#browse p {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#browse .center-div {
+    margin: 16px;
+}
+
+.thirty {
+    width: 30%;
+    align-items: center;
+}
+
+.thirty p {
+    text-align: center;
+}
+
+/* hotBooks.html */
+#hotBooks h1 {
+    text-align: center;
+}
+
+#hotBooks p {
+    text-align: center;
+}
+
+/* search.html */
+#space {
+    justify-content: space-between;
+}
+
+#search p {
+    font-weight: bold;
+}
+
+.button {
+    margin-top: 24px;
+    margin-left: 0px;
+    padding: 12px;
+    display: inline;
+    background-color: lightslategray;
+}
+
+/* book.html */
+.fifty {
+    width: 48%;
+    align-items: center;
+}
+
+#book p {
+    padding-left: 12px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.center {
+    text-align: center;
+}
+
+.center-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* adminTools.html */
+#adminTools p {
+    font-weight: bold;
+}
+
