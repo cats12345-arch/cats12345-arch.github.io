@@ -38,3 +38,50 @@ document.getElementById("txt-emotion").onkeyup = (event) => {
     document.getElementById("img-emotion").classList.remove("hidden");
     //.style
 }
+
+document.getElementById("btn-mood-ring").onclick = () => {
+    const color = document.getElementById("txt-color").value.trim().toLowerCase();
+    const p = document.getElementById("p-mood-result");
+    const error = document.getElementById("error-color");
+    error.innerHTML = ""; //reset error
+    let mood = "";
+
+    if(color == "") {
+        error.innerHTML = "* blank";
+        return;
+    }
+
+    if(color == "red") {
+        mood = "reb"
+        p.style.color = color;
+        return;
+    }
+    else if(color == "blue") {
+        mood = "Its like blue so you're probably sad or something";
+        p.style.color = color;
+    }
+    else if(color == "yellow") {
+        mood = "Like sun I like the sun!";
+        p.style.color = color;
+    }
+
+    if(mood == "") {
+        error.innerHTML = "* Invalid color";
+        return;
+    }
+
+    p.innerHTML = `You chose ${color}, so you are feeling ${mood}`;
+}
+
+document.getElementById("btn-bounce").onclick = (event) => {
+    const ball = document.getElementById("ball");
+
+    if(ball.classList.contains("bounce")) {
+        event.currentTarget.innerHTML = "Start";
+    } else {
+        event.currentTarget.innerHTML = "Stop";
+    }
+
+    ball.classList.toggle("bounce");
+}
+//On chnage
