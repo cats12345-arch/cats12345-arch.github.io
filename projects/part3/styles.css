@@ -86,9 +86,22 @@ main {
     margin: 16px;
 }
 
+.hide-small {
+    display: none;
+}
+
 .thirty {
-    width: 30%;
-    align-items: center;
+    margin-top: 12px;
+}
+
+.in-center {
+    display: block;
+    margin: auto;
+}
+
+.thirty img {
+    display: block;
+    margin: auto;
 }
 
 .thirty p {
@@ -148,3 +161,17 @@ main {
     font-weight: bold;
 }
 
+@media only screen and (min-width: 768px) {
+    .columns-big {
+        display: flex;
+    }
+
+    .thirty {
+    width: 30%;
+    align-items: center;
+    }
+
+    .hide-small {
+        display: block;
+    }
+}
