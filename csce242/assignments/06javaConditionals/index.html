@@ -29,29 +29,9 @@
             <h3>Our Digital Clock</h3>
             <p class="pChange"></p>
         </div>
-        <script src="js/toggle-nav.js"></script>
-        <script>
+        <script src="js/toggle-nav.js">
             updateTime();
             setInterval(updateTime, 60000);
-
-            function updateTime() {
-                const dat = new Date();
-                let hour = Date.getHours();
-                const min = Date.getMinutes();
-                const pChange = document.getElementById("pChange");
-                console.log("please work");
-                console.log("works");
-                if(hour == 12) {
-                    pChange.innerHTML = hour + ":" + min + " pm";
-                }
-                if(hour >= 13) {
-                    hour -= 12;
-                    pChange.innerHTML = hour + ":" + min + " pm";
-                }
-                else {
-                    pChange.innerHTML = hour + ":" + min + " am";
-                }
-            }
         </script>
     </body>
 </html>

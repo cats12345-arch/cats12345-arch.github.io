@@ -35,3 +35,19 @@ document.getElementById("myRange").onclick = () => {
     }
 }
 
+function updateTime() {
+        console.log("please work");
+    let hour = new getHours();
+    const min = new getMinutes();
+    const pChange = document.getElementById("pChange");
+    if(hour == 12) {
+        pChange.innerHTML = hour + ":" + min + " pm";
+    }
+    if(hour >= 13) {
+        hour -= 12;
+        pChange.innerHTML = hour + ":" + min + " pm";
+    }
+    else {
+        pChange.innerHTML = hour + ":" + min + " am";
+    }
+}
