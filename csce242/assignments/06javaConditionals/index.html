@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>JavaScript: Conditionals</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Assignment 8</h1>
+        <h2>If Statements</h2>
+        <nav id="main-nav">
+            <div id="toggle-nav" class="triangle-down">
+                <div id="triangle"></div>
+            </div>
+            <ul id="nav-items" class="columns hide-small">
+                <li id="exercise-1">Exercise 1</li>
+                <li id="exercise-2">Exercise 2</li>
+            </ul>
+        </nav>
+        <div id="plants" class="hide">
+            <p>How many days has it been since watering your plant?</p>
+            <div class="slidecontainer">
+                <input type="range" min="1" max="12" value="1" class="slider" id="myRange">
+            </div>
+            <img id="flower" src="images/plant1.jpeg">
+            <p>It's been 1 days since watering your plant</p>
+            <p>Your plant is healthy and happy</p>
+        </div>
+        <div id="clock" class="hide">
+            <h3>Our Digital Clock</h3>
+            <p class="pChange"></p>
+        </div>
+        <script src="js/toggle-nav.js"></script>
+        <script>
+            updateTime();
+            setInterval(updateTime, 60000);
+
+            function updateTime() {
+                const dat = new Date();
+                let hour = Date.getHours();
+                const min = Date.getMinutes();
+                const pChange = document.getElementById("pChange");
+                console.log("please work");
+                console.log("works");
+                if(hour == 12) {
+                    pChange.innerHTML = hour + ":" + min + " pm";
+                }
+                if(hour >= 13) {
+                    hour -= 12;
+                    pChange.innerHTML = hour + ":" + min + " pm";
+                }
+                else {
+                    pChange.innerHTML = hour + ":" + min + " am";
+                }
+            }
+        </script>
+    </body>
+</html>

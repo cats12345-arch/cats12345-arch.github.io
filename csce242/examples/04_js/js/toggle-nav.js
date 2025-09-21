@@ -1,4 +1,6 @@
 document.getElementById("toggle-nav").onclick = () => {
-    document.getElementById("nav-items").classList.toggle("hide-small");
-    //inut type = color
+    const nav = document.getElementById("nav-items");
+    nav.classList.toggle("hide-small");
+    nav.classList.remove("triangle-down");
+    nav.classList.add("triamgle-up");
 }
