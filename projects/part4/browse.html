@@ -4,40 +4,45 @@
         <title>Browse Books</title>
         <link rel="stylesheet" href="styles.css">
     </head>
-    <body>
+    <body id="home">
         <header>
-            <div id="header" class="columns">
+            <div id="header" class="columns-big">
                 <h1>Books For All</h1>
-                <div class="columns">
-                    <p><a href="index.html">Home</a></p>
-                    <p><a href="browse.html">Browse</a></p>
-                    <p><a href="hotBooks.html">Hot Books</a></p>
-                    <p><a href="search.html">Search</a></p>
-                    <p><a href="aboutUs.html">About Us</a></p>
-                </div>
+                <nav id="main-nav" class="columns">
+                    <div id="toggle-nav" class="triangle-down">
+                        <div id="triangle"></div>
+                    </div>
+                    <ul id="nav-items" class="columns hide" class="columns">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="browse.html">Browse</a></li>
+                        <li><a href="hotBooks.html">Hot Books</a></li>
+                        <li><a href="search.html">Search</a></li>
+                        <li><a href="aboutUs.html">About Us</a></li>
+                    </ul>
+                </nav>
             </div>
         </header>
-        <main>
+        <main >
             <div id="browse" class="columns-big">
                 <div class="center-div" class="thirty">
                     <a href="book.html">
                         <div>
-                            <img class="in-center" src="https://dummyimage.com/400x400/000/fff">
+                            <img id="full" class="in-center" src="pictures/charlottesWeb.webp">
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vehicula lorem eget elit feugiat, in rutrum dolor luctus. Aliquam sed sagittis purus, sit amet fringilla mauris.</p>
+                        <p>Charlotte`s Web is a classic children`s novel by E.B. White that tells the heartwarming story of friendship, loyalty, and the cycle of life. It follows Wilbur, a runt pig who fears being slaughtered, and Charlotte, a wise and caring barn spider who becomes his protector. Through her clever weaving of words into her web—like “Some Pig” and “Terrific”—Charlotte convinces humans that Wilbur is extraordinary and worth saving. Alongside other barnyard characters, including the lively goose and the self-centered rat Templeton, the story explores themes of compassion, sacrifice, and the beauty of unlikely friendships.</p>
                     </a>
                     </div>
                 <div class="center-div" class="thirty">
                     <div>
-                        <img src="https://dummyimage.com/400x400/000/fff">
+                        <img src="pictures/aTaleOfTwoCities.jpg">
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vehicula lorem eget elit feugiat, in rutrum dolor luctus. Aliquam sed sagittis purus, sit amet fringilla mauris.</p>
+                    <p>A Tale of Two Cities by Charles Dickens is a historical novel set during the turbulent times of the French Revolution. The story moves between London and Paris, exploring themes of sacrifice, justice, and redemption. It follows the lives of several characters, most notably Charles Darnay, a French aristocrat who rejects his family`s cruel legacy; Lucie Manette, a symbol of love and compassion; and Sydney Carton, a troubled lawyer who ultimately finds purpose through selfless sacrifice. Through vivid storytelling, Dickens contrasts the chaos of revolutionary Paris with the stability of London, showing both the brutality and hope of a world in upheaval.</p>
                 </div>
                 <div class="center-div" class="thirty">
                     <div>
-                        <img src="https://dummyimage.com/400x400/000/fff">
+                        <img id="full" src="pictures/courtAndThorn.jpg">
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vehicula lorem eget elit feugiat, in rutrum dolor luctus. Aliquam sed sagittis purus, sit amet fringilla mauris.</p>
+                    <p>A Court of Thorns and Roses by Sarah J. Maas is a fantasy novel that blends romance, adventure, and fae mythology. The story follows Feyre Archeron, a mortal huntress who is forced to live in the dangerous faerie lands after killing a wolf that was more than it seemed. There, she becomes entangled with Tamlin, a powerful High Fae, and discovers that a dark curse threatens both his world and her own. As Feyre navigates love, betrayal, and deadly trials, she learns about her own strength and the sacrifices required to protect those she cares for.</p>
                 </div>
             </div>
         </main>
@@ -47,5 +52,6 @@
                 <p><a href="adminTools.html">Admin Tools</a></p>
             </div>
         </footer>
+        <script src="js/toggle-nav.js"></script>
     </body>
 </html>

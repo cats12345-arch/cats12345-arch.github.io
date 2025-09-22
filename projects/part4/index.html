@@ -4,37 +4,52 @@
         <title>Homepage</title>
         <link rel="stylesheet" href="styles.css">
     </head>
-    <body>
+    <body id="home">
         <header>
-            <div id="header" class="columns">
+            <div id="header" class="columns-big">
                 <h1>Books For All</h1>
-                <div class="columns">
-                    <p><a href="index.html">Home</a></p>
-                    <p><a href="browse.html">Browse</a></p>
-                    <p><a href="hotBooks.html">Hot Books</a></p>
-                    <p><a href="search.html">Search</a></p>
-                    <p><a href="aboutUs.html">About Us</a></p>
-                </div>
+                <nav id="main-nav" class="columns">
+                    <div id="toggle-nav" class="triangle-down">
+                        <div id="triangle"></div>
+                    </div>
+                    <ul id="nav-items" class="columns hide" class="columns">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="browse.html">Browse</a></li>
+                        <li><a href="hotBooks.html">Hot Books</a></li>
+                        <li><a href="search.html">Search</a></li>
+                        <li><a href="aboutUs.html">About Us</a></li>
+                    </ul>
+                </nav>
             </div>
         </header>
         <main>
             <div id="absolute">
-                <img src="https://dummyimage.com/1800x800/000/fff">
+                <img class="homeBanner" src="pictures/homeBanner.jpg">
                 <div id="relative">
-                    <p>Hotest books of 2025</p>
+                    <p class="bold">Hotest books of 2025</p>
                 </div>
             </div>
             <div>
-                <h2>In Store Evenets</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis mollis ante. Nunc molestie id sem non tristique. Pellentesque commodo nisl imperdiet egestas vehicula. Nulla porta vel libero in fermentum. Aliquam suscipit nisl elit, id pretium magna tincidunt eget. Nunc dapibus malesuada vestibulum.</p>
+                <h1>In Store Evenets</h1>
+                <p>At our bookstore, we're more than just shelves of stories—we're a vibrant hub for book lovers, curious minds, and community connection. Every month, we host a variety of engaging in-store events designed to bring readers and authors together, celebrate stories of all kinds, and create unforgettable literary experiences.</p>
+                <h2>Author Readings & Signings</h2>
+                <p>Meet your favorite authors in person! Our regular author events feature readings, Q&A sessions, and personalized book signings. Whether it's a bestselling novelist or a debut poet, you`ll get the chance to hear the story behind the story and connect with the voices behind the books.</p>
+                <h2>Storytime for Kids</h2>
+                <p>Every Saturday morning, we invite young readers and their families to join us for a fun and interactive storytime. With animated readings, themed crafts, and the occasional surprise guest (like a costumed character or local illustrator!), this event is perfect for igniting a lifelong love of books in little ones.</p>
+                <h2>Book Club Nights</h2>
+                <p>Join our monthly book clubs to dive deep into thought-provoking reads and lively discussions. We offer several groups based on genre—fiction, mystery, sci-fi/fantasy, and non-fiction—so there`s something for every reader. Newcomers are always welcome!</p>
+                <h2>Local Art Showcases & Music Evenings</h2>
+                <p>Celebrate the arts with rotating exhibits from local visual artists and live acoustic performances. Our cozy space transforms into an intimate venue where creativity flourishes across mediums.</p>
             </div>
             <div id="weekly-bookclub" class="columns-big">
-                <div>
-                    <img src="https://dummyimage.com/800x800/000/fff">
+                <div class="bookClub">
+                    <img src="pictures/bookClub.jpg">
                 </div>
                 <div>
                     <h2>Weekly book club</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vehicula lorem eget elit feugiat, in rutrum dolor luctus. Aliquam sed sagittis purus, sit amet fringilla mauris. Pellentesque et dapibus metus, id dapibus metus. Aenean aliquam fringilla lorem sit amet venenatis.</p>
+                    <p>Join us every week for our friendly and engaging Book Club, where readers come together to explore a new book, share ideas, and enjoy great conversation. Whether you`re a lifelong book lover or just getting into reading, our group welcomes all levels of readers and all kinds of perspectives.</p>
+                    <p>Each week, we read and discuss a selected title from a range of genres—fiction, non-fiction, mystery, memoir, and more. Meetings are casual and relaxed, with a focus on thoughtful discussion and building community through a shared love of books.</p>
+                    <p>Come for the books, stay for the conversation. We look forward to reading with you!</p>
                 </div>
             </div>
         </main>
@@ -44,5 +59,6 @@
                 <p><a href="adminTools.html">Admin Tools</a></p>
             </div>
         </footer>
+        <script src="js/toggle-nav.js"></script>
     </body>
 </html>

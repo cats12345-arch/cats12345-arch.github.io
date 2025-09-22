@@ -36,13 +36,15 @@ document.getElementById("myRange").onclick = () => {
 }
 
 function updateTime() {
-        console.log("please work");
+    console.log("please work");
+    const time = new Date();
     let hour = new getHours();
     const min = new getMinutes();
     const pChange = document.getElementById("pChange");
     if(hour == 12) {
         pChange.innerHTML = hour + ":" + min + " pm";
     }
+    
     if(hour >= 13) {
         hour -= 12;
         pChange.innerHTML = hour + ":" + min + " pm";
@@ -50,4 +52,9 @@ function updateTime() {
     else {
         pChange.innerHTML = hour + ":" + min + " am";
     }
+
+    
 }
+
+updateTime();
+setInterval(updateTime, 60000);

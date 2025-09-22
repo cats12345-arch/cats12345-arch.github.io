@@ -11,12 +11,54 @@
 img {
     max-width: 100%;
 }
+
+.hide {
+    display: none;
+}
+
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid #587F86;
+}
+
+.triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid #587F86;
+}
+
+#nav-items li {
+    font-size: 20px;
+    margin: 4px;
+}
+
+#sub-nav {
+    position:absolute;
+    top:0;
+    right:5px;
+}
+
+#main-nav ul, #sub-nav ul {
+    padding-left:0;
+}
+
+#main-nav li, #sub-nav li {
+    list-style-type: none;  /* remove the bullets */
+    text-align: left;
+}
+
 /* Header */
 #header {
     width: 90%;
     margin: auto;
     justify-content: space-around;
     align-items: center;
+    text-align: center;
 }
 
 #header p{
@@ -41,12 +83,36 @@ footer {
     padding-left: 12px;
 }
 
+#footer p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
 /* index.html */
 
 /* Main */
 main {
     width: 90%;
     margin: auto;
+}
+
+
+#home {
+    background: #F2D6A2;
+}
+
+.bold {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#home main h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#home main p {
+    font-size: 24px;
 }
 
 /* image with text in it */
@@ -63,6 +129,17 @@ main {
     background: white;
 }
 
+.homeBanner {
+    max-height: 1000px;
+}
+
+.bookClub {
+    max-width: 50%;
+}
+
+#weekly-bookclub {
+
+}
 #weekly-bookclub div{
     padding: 12px;
 }
@@ -74,6 +151,10 @@ main {
 
 #browse {
     justify-content: space-between;
+}
+
+#browse img {
+    width: 500px;
 }
 
 #browse p {
@@ -146,6 +227,12 @@ main {
     font-size: 18px;
 }
 
+.fifty img {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
 .center {
     text-align: center;
 }
@@ -156,12 +243,21 @@ main {
     align-items: center;
 }
 
+.bigger {
+    width: 800px;
+}
+/* About Us */
+
 /* adminTools.html */
 #adminTools p {
     font-weight: bold;
 }
 
 @media only screen and (min-width: 768px) {
+    #header {
+        text-align: left;
+    }
+
     .columns-big {
         display: flex;
     }
@@ -173,5 +269,10 @@ main {
 
     .hide-small {
         display: block;
+    }
+    
+    #hotBooks .center-div {
+    margin: auto;
+    width: 30%;
     }
 }

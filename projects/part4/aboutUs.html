@@ -4,38 +4,56 @@
         <title>About Us</title>
         <link rel="stylesheet" href="styles.css">
     </head>
-    <body>
+    <body id="home">
         <header>
-            <div id="header" class="columns">
+            <div id="header" class="columns-big">
                 <h1>Books For All</h1>
-                <div class="columns">
-                    <p><a href="index.html">Home</a></p>
-                    <p><a href="browse.html">Browse</a></p>
-                    <p><a href="hotBooks.html">Hot Books</a></p>
-                    <p><a href="search.html">Search</a></p>
-                    <p><a href="aboutUs.html">About Us</a></p>
-                </div>
+                <nav id="main-nav" class="columns">
+                    <div id="toggle-nav" class="triangle-down">
+                        <div id="triangle"></div>
+                    </div>
+                    <ul id="nav-items" class="columns hide" class="columns">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="browse.html">Browse</a></li>
+                        <li><a href="hotBooks.html">Hot Books</a></li>
+                        <li><a href="search.html">Search</a></li>
+                        <li><a href="aboutUs.html">About Us</a></li>
+                    </ul>
+                </nav>
             </div>
         </header>
-        <main>
+        <main id="aboutUs">
             <div id="browse" class="columns-big">
                 <div class="thirty">
-                    <div id="absolute" >
-                        <img src="https://dummyimage.com/400x400/000/fff">
+                    <div id="absolute">
+                        <img src="pictures/woman.jpg">
                         <div id="relative">
-                            <p>Name</p>
+                            <p>Maya Lin</p>
                         </div>
                     </div>
-                    <p>Owner info: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis mollis ante. Nunc molestie id sem non tristique.</p>
+                    <p>The creative heart of the team, Maya loves curating eclectic and rare books. She has a background in literature and often hosts author events and reading clubs. Always carrying a notebook, she`s passionate about fostering a welcoming space for readers of all ages.</p>
                 </div>
                 <div class="thirty">
-                    <img src="https://dummyimage.com/400x600/000/fff">
+                    <div id="absolute">
+                        <img src="pictures/man.jpg">
+                        <div id="relative">
+                            <p>Ethan Carter</p>
+                        </div>
+                    </div>
+                    <p>The business-savvy co-owner, Ethan manages the store`s operations, finances, and marketing. With a knack for spotting trends in book sales, he ensures the store remains profitable while supporting local authors and community initiatives.</p>
                 </div>
                 <div class="thirty">
-                    <img src="https://dummyimage.com/400x600/000/fff">
+                    <div id="absolute">
+                        <img src="pictures/woman2.jpg">
+                        <div id="relative">
+                            <p>Leila Ortiz</p>
+                        </div>
+                    </div>
+                    <p>The community connector, Leila organizes workshops, book clubs, and storytelling sessions for children. She has a background in education and a deep love for literature that inspires people to engage with reading in creative ways.</p>
                 </div>
             </div>
-            <p class="center">Statement about the website: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis mollis ante. Nunc molestie id sem non tristique. Pellentesque commodo nisl imperdiet egestas vehicula. Nulla porta vel libero in fermentum. Aliquam suscipit nisl elit, id pretium magna tincidunt eget. Nunc dapibus malesuada vestibulum. Fusce dapibus augue ipsum, in pellentesque metus faucibus quis. Sed porta augue sit amet elementum lobortis.</p>
+            <h1 class="center">About Our Book Store</h1>
+            <p class="center">a cozy haven for book lovers of all ages. We are passionate about connecting readers with stories that inspire, entertain, and enlighten. From timeless classics to contemporary gems, our carefully curated collection celebrates the joy of reading in all its forms. More than just a bookstore, we’re a community hub where book clubs meet, ideas are exchanged, and curiosity is celebrated. Our friendly team is always here to recommend your next favorite read, share a literary conversation, or help you discover a hidden gem. Here at our store, every book has a story, and every visitor becomes part of ours. Come in, explore, and let the adventure begin.</p>
         </main>
         <footer>
             <div id="footer" class="columns">
@@ -43,5 +61,6 @@
                 <p><a href="adminTools.html">Admin Tools</a></p>
             </div>
         </footer>
+        <script src="js/toggle-nav.js"></script>
     </body>
 </html>
