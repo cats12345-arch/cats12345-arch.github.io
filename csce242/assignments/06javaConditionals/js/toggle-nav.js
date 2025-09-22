@@ -48,7 +48,9 @@ document.getElementById("myRange").onclick = () => {
 function updateTime() {
     const time = new Date();
     let hour = time.getHours();
-    const min = time.getMinutes();
+    let min = time.getMinutes();
+    hour = String(hour).padStart(2, '0');
+    min = String(min).padStart(2, '0');
     const pChange = document.getElementById("pChange");
     if(hour == 12) {
         pChange.innerHTML = `${hour}:${min} pm`;
