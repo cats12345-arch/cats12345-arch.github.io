@@ -107,4 +107,12 @@ img {
     .hide-small {
         display: flex;
     }
+
+    #main-nav li {
+        text-align: right;
+        margin: 5px;
+    }
+    #main-nav li:not(:first-child) {
+        text-align: left;
+    }
 }

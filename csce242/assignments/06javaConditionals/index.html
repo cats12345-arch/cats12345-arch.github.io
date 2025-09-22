@@ -22,16 +22,13 @@
                 <input type="range" min="1" max="12" value="1" class="slider" id="myRange">
             </div>
             <img id="flower" src="images/plant1.jpeg">
-            <p>It's been 1 days since watering your plant</p>
-            <p>Your plant is healthy and happy</p>
+            <p id="numberDays">It's been 1 days since watering your plant</p>
+            <p id="status">Your plant is healthy and happy</p>
         </div>
         <div id="clock" class="hide">
             <h3>Our Digital Clock</h3>
-            <p class="pChange"></p>
+            <p id="pChange"></p>
         </div>
-        <script src="js/toggle-nav.js">
-            updateTime();
-            setInterval(updateTime, 60000);
-        </script>
+        <script src="js/toggle-nav.js"></script>
     </body>
 </html>

@@ -50,6 +50,7 @@ img {
         justify-content: space-around;
         flex-direction: row;
         padding-left: 0;
+        flex-wrap: wrap;
     }
 
     #projects div {
@@ -60,7 +61,7 @@ img {
     }
 
     .thirty {
-        width: 30%;
+        width: 28%;
         background-color: #BA8C5B;
         margin: 2%;
     }
