@@ -1,0 +1,82 @@
+body {
+    background: #ADD8E6;
+    text-align: center;
+    position: relative;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #88BACE;
+}
+
+h2 {
+    color: #DA808D;
+}
+
+/* Coppied from https://lauryndbrown.github.io/2017/06/08/creating-clouds-in-css.html */
+.cloud{ 
+   margin-top:35px;
+   width:175px;
+   height:60px;
+   background:#ECEFF1;
+   box-shadow: 5px 5px rgba(0,0,0,0.2);
+   border-radius:50px;
+}
+.cloud::after, .cloud::before{
+    content:"";
+    position:relative;
+    display:inline-block;
+    background:inherit;
+    border-radius:inherit;
+}
+.cloud::after{
+    width:50px;
+    height:50px;
+    top:-110px;
+    left:25px;
+}
+.cloud::before{
+    width:90px;
+    height:90px;
+    top: -35px;
+    left:65px;
+}
+
+/* Copied from chatgpt */
+.tree {
+  position: relative;
+  width: 100px;
+  height: 160px;
+  margin: 50px auto;
+}
+.tree::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 20px;
+  height: 60px;
+  background: #5b3a1a;
+  transform: translateX(-50%);
+}
+.tree::after {
+  content: "";
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  width: 120px;
+  height: 120px;
+  background: #2e8b57;
+  border-radius: 50%;
+  transform: translateX(-50%);
+}
+
