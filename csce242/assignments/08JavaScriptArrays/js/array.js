@@ -1,71 +1,72 @@
 const catsBefore = [];
-catsBefore["Bacon"] = "images/cat1_img1.png";
-catsBefore["Bagel"] = "images/cat2_img1.png";
-catsBefore["Bubba"] = "images/cat3_img1.png";
-catsBefore["Bubbles"] = "images/cat4_img1.png";
+catsBefore["Bacon"] = "images/cat1_img1.jpg";
+catsBefore["Bagel"] = "images/cat2_img1.jpg";
+catsBefore["Bubba"] = "images/cat3_img1.jpg";
+catsBefore["Bubbles"] = "images/cat4_img1.jpg";
 
 const catsAfter = [];
-catsAfter["Bacon"] = "images/cat1_img2.png";
-catsAfter["Bagel"] = "images/cat2_img2.png";
-catsAfter["Bubba"] = "images/cat3_img2.png";
-catsAfter["Bubbles"] = "images/cat4_img2.png";
+catsAfter["Bacon"] = "images/cat1_img2.jpg";
+catsAfter["Bagel"] = "images/cat2_img2.jpg";
+catsAfter["Bubba"] = "images/cat3_img2.jpg";
+catsAfter["Bubbles"] = "images/cat4_img2.jpg";
 
 //inital variables
-const cat1 = document.getElementById("cat1");
-const cat2 = document.getElementById("cat2");
-const cat3 = document.getElementById("cat3");
-const cat4 = document.getElementById("cat4");
-
-const banner1 = document.getElementById("absolute1");
-const banner2 = document.getElementById("absolute2");
-const banner3 = document.getElementById("absolute3");
-const banner4 = document.getElementById("absolute4");
-
-const popup = document.getElementById("popup");
-const closes = document.getElementById("close");
-const catname = document.getElementById("name");
-const catImage = document.getElementById("image")
+const body = document.getElementById("body");
+const catContainer = document.getElementById("cat-container");
 
 //There is surely an easier way to do this
 // Mouse over effects so that it shows the banner that says to please adopt the cat
-cat1.onmouseover = () => {
-    banner1.classList.remove("hide");
-}
 
-cat2.onmouseover = () => {
-    banner2.classList.remove("hide");
-}
 
-cat3.onmouseover = () => {
-    banner3.classList.remove("hide");
-}
+for(let cat in catsBefore) {
+    const container = document.createElement("div");
+    container.classList.add("box");
+    const catimg = document.createElement("img");
+    catimg.src = catsBefore[cat];
+    const divtext = document.createElement("div");
+    divtext.classList.add("absoluteCat");
+    divtext.classList.add("hide");
+    const text = document.createElement("p");
+    text.innerHTML = `Please adopt ${cat}`;
 
-cat4.onmouseover = () => {
-    banner4.classList.remove("hide");
-}
+    container.onmouseover = () => {
+        divtext.classList.remove("hide");
+    }
+    container.onmouseleave = () => {
+        divtext.classList.add("hide");
+    }
 
-cat1.onmouseleave = () => {
-    banner1.classList.add("hide");
-}
+    divtext.append(text);
+    container.append(catimg);
+    container.append(divtext);
 
-cat2.onmouseleave = () => {
-    banner2.classList.add("hide");
-}
+    catContainer.append(container);
 
-cat3.onmouseleave = () => {
-    banner3.classList.add("hide");
-}
+    catimg.onclick = () => {
+        const popup = document.createElement("div");
+        popup.classList.add("popup");
+        const absolute = document.createElement("div");
+        absolute.classList.add("absolute");
+        const aftertext = document.createElement("p");
+        aftertext.innerHTML = `${cat} after adoption`;
+        const span = document.createElement("span");
+        span.innerHTML = "&#10006;";
+        const divCatImg = document.createElement("div");
+        const imgafter = document.createElement("img");
+        imgafter.src = catsAfter[cat];
 
-cat4.onmouseleave = () => {
-    banner4.classList.add("hide");
-}
+        divCatImg.append(imgafter)
 
-cat1.onclick = () => {
-    popup.classList.remove("hide");
+        absolute.append(aftertext);
+        absolute.append(span);
+        absolute.append(divCatImg);
+
+        popup.append(absolute);
+
+        body.append(popup);
     
-
-}
-
-closes.onclick = () => {
-    popup.classList.add("hide");
+        span.onclick = () => {
+            popup.remove();
+        }
+    }
 }

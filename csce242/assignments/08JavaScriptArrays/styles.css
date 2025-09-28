@@ -57,7 +57,7 @@ p {
     position: relative;
 }
 
-#absolute1 {
+.absoluteCat {
     position: absolute;
     max-width: 100%;
     background: rgba(217, 130, 130, .7);
@@ -66,45 +66,6 @@ p {
     width: 100%;
 }
 
-#absolute2 {
-    position: absolute;
-    max-width: 100%;
-    background: rgba(217, 130, 130, .7);
-    bottom: 0px;
-    text-align: center;
-    width: 100%;
-}
-
-#absolute3 {
-    position: absolute;
-    max-width: 100%;
-    background: rgba(217, 130, 130, .7);
-    bottom: 0px;
-    text-align: center;
-    width: 100%;
-}
-
-#absolute4 {
-    position: absolute;
-    max-width: 100%;
-    background: rgba(217, 130, 130, .7);
-    bottom: 0px;
-    text-align: center;
-    width: 100%;
-}
-
-#absolute1 p {
-    color: white;
-}
-
-#absolute2 p {
-    color: white;
-}
-
-#absolute3 p {
-    color: white;
-}
-
-#absolute4 p {
+.absoluteCat p {
     color: white;
 }
