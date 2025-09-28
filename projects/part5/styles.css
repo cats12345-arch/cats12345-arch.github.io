@@ -1,0 +1,326 @@
+.columns {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+}
+
+#body {
+    width: 95%;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Nav */
+#toggle-nav {
+    margin: 0 auto;
+}
+
+#toggle-nav div{
+    width:35px;
+    height:5px;
+    background-color: #587F86;
+    margin:6px auto;
+}
+
+#nav-items li {
+    font-size: 20px;
+    margin: 4px;
+}
+
+#sub-nav {
+    position:absolute;
+    top:0;
+    right:5px;
+}
+
+#main-nav ul, #sub-nav ul {
+    padding-left:0;
+}
+
+#main-nav li, #sub-nav li {
+    list-style-type: none;  /* remove the bullets */
+    text-align: center;
+}
+
+#nav-items li {
+    background: #8FB1EF;
+}
+
+/* Header */
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+#main-nav .absolute {
+    top: 10px;
+    right: 0px;
+    
+}
+
+
+#header {
+    width: 90%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+#header h1 {
+    margin: 0px;
+    padding: 10px;
+}
+
+header {
+    background: #fcfcf3;
+    padding: 10px;
+}
+
+#header p{
+    padding-left: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* footers */
+footer {
+    width: 95%;
+}
+
+#footer {
+    justify-content: flex-end;
+}
+
+#footer p {
+    padding-left: 12px;
+}
+
+#footer p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* index.html */
+
+/* Main */
+main {
+    width: 90%;
+    margin: auto;
+}
+
+
+#home {
+    background: #F2D6A2;
+}
+
+.bold {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#home main h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#home main p {
+    font-size: 24px;
+}
+
+/* image with text in it */
+/* Ok I know it looks stupid but im too lazy to change the html */
+#absolute {
+    position: relative;
+    margin: 0px auto;
+}
+
+#relative {
+    position: absolute;
+    bottom: 8%;
+    padding-left: 10%;
+    padding-right: 3%;
+    background: white;
+}
+
+.homeBanner {
+    max-height: 1000px;
+}
+
+.bookClub {
+    max-width: 50%;
+}
+
+#weekly-bookclub {
+
+}
+#weekly-bookclub div{
+    padding: 12px;
+}
+
+/* browse.html */
+main {
+    width: 90%;
+}
+
+#browse {
+    justify-content: space-between;
+}
+
+#browse img {
+    width: 500px;
+}
+
+#browse p {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#browse .center-div {
+    margin: 16px;
+}
+
+.hide-small {
+    display: none;
+}
+
+.thirty {
+    margin-top: 12px;
+}
+
+.in-center {
+    display: block;
+    margin: auto;
+}
+
+.thirty img {
+    display: block;
+    margin: auto;
+}
+
+.thirty p {
+    text-align: center;
+}
+
+/* hotBooks.html */
+#hotBooks h1 {
+    text-align: center;
+}
+
+#hotBooks p {
+    text-align: center;
+}
+
+/* search.html */
+#space {
+    justify-content: space-between;
+}
+
+#search p {
+    font-weight: bold;
+}
+
+.button {
+    margin-top: 24px;
+    margin-left: 0px;
+    padding: 12px;
+    display: inline;
+    background-color: lightslategray;
+}
+
+/* book.html */
+.fifty {
+    width: 48%;
+    align-items: center;
+}
+
+#book p {
+    padding-left: 12px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.fifty img {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.center {
+    text-align: center;
+}
+
+.center-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center-div img {
+    width: 100%;
+    height: 30%;
+}
+
+.bigger {
+    width: 800px;
+}
+/* About Us */
+
+/* adminTools.html */
+#adminTools p {
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 768px) {
+    #header {
+        text-align: left;
+    }
+
+    .columns-big {
+        display: flex;
+    }
+
+    .thirty {
+    width: 30%;
+    align-items: center;
+    }
+
+    .hide-small {
+        display: block;
+    }
+    
+    #hotBooks .center-div {
+    margin: auto;
+    width: 30%;
+    }
+
+    #main-nav li, #sub-nav li {
+        text-align: left;
+    }
+
+    #nav-items li {
+    background: #fcfcf3;
+    }
+
+    #hotBooks .center-div {
+        margin: 0px auto;
+    }
+}
+
+.hide {
+    display: none;
+    margin: 0;
+}
