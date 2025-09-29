@@ -114,6 +114,9 @@ footer {
 }
 
 /* index.html */
+#info div {
+    margin: 15px;
+}
 
 /* Main */
 main {
@@ -233,6 +236,10 @@ main {
     font-weight: bold;
 }
 
+#space div p {
+    font-size: 32px;
+}
+
 .button {
     margin-top: 24px;
     margin-left: 0px;
@@ -278,6 +285,9 @@ main {
     width: 800px;
 }
 /* About Us */
+#aboutUs h1 {
+    text-align: center;
+}
 
 /* adminTools.html */
 #adminTools p {
