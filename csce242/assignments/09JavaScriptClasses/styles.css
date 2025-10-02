@@ -1,0 +1,21 @@
+body {
+    background: #F1F2E9;
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    color: #5D878C;
+}
+
+h2 {
+    color: #D98282;
+}
+
+p {
+    color: #D98282;
+}
+
+.footer {
+    color: #5D878C;
+}
