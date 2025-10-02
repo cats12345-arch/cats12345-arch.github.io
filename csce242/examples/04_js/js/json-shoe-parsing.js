@@ -35,6 +35,7 @@ const showShoes = async() => {
         //image
         //const img = document.createElement("img");
         //div.append(img);
+        //img.src "filepath"
 
         console.log(shoe.name);
     });
