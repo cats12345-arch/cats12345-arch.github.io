@@ -4,8 +4,74 @@ body {
     position: relative;
 }
 
+/* Coppied from w3 schools */
+ /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    display: inline-block;
+    background-color: #fefefe;
+    margin: 15%; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+} 
+
+.border {
+    border: 5px solid black;
+}
+.absolute {
+    position: relative;
+    padding: 20px;
+}
+
+.popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #F1F2E9;
+    box-shadow: 5px 10px 2px 2
+}
+
+img {
+    max-width: 100%;
+    width: 300px;
+    height: 250px;
+}
+
 h1 {
     color: #5D878C;
+}
+
+#paintings p {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 h2 {
@@ -18,4 +84,15 @@ p {
 
 .footer {
     color: #5D878C;
+}
+
+@media only screen and (min-width: 768px) {
+    .columns {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .limitedSize {
+        max-width: 20%;
+    }
 }
