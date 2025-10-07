@@ -16,6 +16,19 @@ img {
     max-width: 100%;
 }
 
+#absolute2 {
+    position: relative;
+    margin: 0px auto;
+}
+
+#relative2 {
+    position: absolute;
+    bottom: 8%;
+    padding-left: 10%;
+    padding-right: 3%;
+    background: white;
+}
+
 /* Nav */
 #toggle-nav {
     margin: 0 auto;
@@ -50,6 +63,12 @@ img {
 
 #nav-items li {
     background: #8FB1EF;
+}
+
+
+.hide {
+    display: none;
+    margin: 0;
 }
 
 /* Header */
@@ -114,8 +133,13 @@ footer {
 }
 
 /* index.html */
+
 #info div {
     margin: 15px;
+}
+
+#info h2 {
+    font-size: 32px;
 }
 
 /* Main */
@@ -145,13 +169,15 @@ main {
 
 /* image with text in it */
 /* Ok I know it looks stupid but im too lazy to change the html */
-#absolute {
+#relative {
     position: relative;
-    margin: 0px auto;
+    width: fit-content;
+    margin: auto;
 }
 
-#relative {
+#absolute {
     position: absolute;
+    margin: auto;
     bottom: 8%;
     padding-left: 10%;
     padding-right: 3%;
@@ -159,7 +185,8 @@ main {
 }
 
 .homeBanner {
-    max-height: 1000px;
+    max-height: 600px;
+    width: 2400px;
 }
 
 .bookClub {
@@ -167,19 +194,29 @@ main {
 }
 
 #weekly-bookclub {
-
+    border: 3px solid #a75502;
 }
+
 #weekly-bookclub div{
     padding: 12px;
 }
 
+#weekly-bookclub h2 {
+    font-size: 32px;
+}
+
 /* browse.html */
+#full {
+    height: 600px;
+}
+
 main {
     width: 90%;
 }
 
 #browse {
     justify-content: space-between;
+    gap: 3%;
 }
 
 #browse img {
@@ -187,9 +224,7 @@ main {
 }
 
 #browse p {
-    text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    text-align: left;
 }
 
 #browse .center-div {
@@ -226,6 +261,16 @@ main {
 #hotBooks p {
     text-align: center;
 }
+
+#galleryBook {
+    gap: 2%;
+}
+
+#galleryBook img {
+    height: 600px;
+}
+
+#center
 
 /* search.html */
 #space {
@@ -328,9 +373,10 @@ main {
     #hotBooks .center-div {
         margin: 0px auto;
     }
-}
 
-.hide {
-    display: none;
-    margin: 0;
+    .hide {
+        display: flex;
+        margin: 0;
+    }
+    
 }
