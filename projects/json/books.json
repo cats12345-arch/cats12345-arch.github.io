@@ -3,69 +3,89 @@
     "name": "Lord of the Rings",
     "author": "J.R.R Tolkien",
     "price": 15.99,
-    "releaseDate": "7/29/1954"
+    "releaseDate": "7/29/1954",
+    "popularBook": false,
+    "newBook": false
   },
   {
     "id": 2,
     "name": "Crying in H Mart",
     "author": "Michelle Zauner",
     "price": 14.99,
-    "releaseDate": "4/20/2021"
+    "releaseDate": "4/20/2021",
+    "popularBook": true,
+    "newBook": false
   },
 	{
     "id:": 3,
     "name": "Charlotte's Web",
     "Author": "E.B White",
     "price": 8.99,
-    "releaseDate": "3/1/1973"
+    "releaseDate": "3/1/1973",
+    "popularBook": false,
+    "newBook": false
   },
   {
     "id": 4,
     "name": "A tale of Two Cities",
     "author": "Charles Dickens",
     "price": 9.99,
-    "releaseDate": "11/26/1859"
+    "releaseDate": "11/26/1859",
+    "popularBook": false,
+    "newBook": false
   },
   {
     "id": 5,
     "name": "A Court of Thorns and Roses",
     "author": "Sarah J. Maas",
     "price": 12.99,
-    "releaseDate": "5/5/2015"
+    "releaseDate": "5/5/2015",
+    "popularBook": false,
+    "newBook": false
   },
   {
     "id": 6,
     "name": "Harry Potter and the Sorcer's Stone",
     "author": "J.K. Rowling",
     "price": 9.99,
-    "releaseDate": "11/6/2001"
+    "releaseDate": "11/6/2001",
+    "popularBook": true,
+    "newBook": false
   },
   {
     "id": 7,
     "name": "Intermezzo",
     "author": "Sally Rooney",
     "price": 11.99,
-    "releaseDate": "8/24/2024"
+    "releaseDate": "8/24/2024",
+    "popularBook": true,
+    "newBook": false
   },
   {
     "id": 8,
     "name": "The Hundred Years' war on Palestine",
     "author": "Rashid Khalidi",
     "price": 12.99,
-    "releaseDate": "1/28/2020"
+    "releaseDate": "1/28/2020",
+    "popularBook": false,
+    "newBook": true
   },
   {
     "id": 9,
     "name": "The Lioness of Boston",
     "author": "Emily Franklin",
     "price": 16.99,
-    "releaseDate": "8/29/2023"
+    "releaseDate": "8/29/2023",
+    "popularBook": false,
+    "newBook": true
   },
   {
     "id": 10,
     "name": "A Little Frog's Guide to Self-Care",
     "author": "Maybell Eequay",
     "price": 7.99,
-    "releaseDate":"8/8/2023"
+    "releaseDate":"8/8/2023",
+    "popularBook": false,
+    "newBook": true
   }
 ]
