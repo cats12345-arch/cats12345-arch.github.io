@@ -323,7 +323,6 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 28%;
 }
 
 .center-div img {
@@ -395,6 +394,10 @@ main {
 
     li {
         padding-right: 15px;
+    }
+
+    .center-div {
+        width: 28%;
     }
     
 }

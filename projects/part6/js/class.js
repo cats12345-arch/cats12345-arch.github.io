@@ -3,7 +3,6 @@ const getBooks = async() => {
 
     try {
         const response = await fetch(url);
-        setTimeout(console.log("maybe this will fix the JSON issue??"), 500);
         return response.json();
     }
     catch(error) {
@@ -23,7 +22,6 @@ const showBooks = async() => {
 
         const div2 = document.createElement("div");
         const img = document.createElement("img");
-        console.log(book.imagePath);
         img.src = `pictures/${book.imagePath}`;
 
         div2.append(img);
