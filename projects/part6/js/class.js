@@ -12,7 +12,7 @@ const getBooks = async() => {
 
 const showBooks = async() => {
     const books = await getBooks();
-    const browsediv = document.getElementById("Browse");
+    const browsediv = document.getElementById("browse");
 
     books.forEach((book)=>{
         const div = document.createElement("div");
@@ -41,17 +41,17 @@ const showBooks = async() => {
         const p3 = document.createElement("p");
         p3.innerHTML = book.description
 
-        div.append(div2);
-        div.append(h1);
-        div.append(h1_2);
-        div.append(p);
-        div.append(p2);
-        div.append(p3);
+        a.append(div2);
+        a.append(h1);
+        a.append(h1_2);
+        a.append(p);
+        a.append(p2);
+        a.append(p3);
 
         div.append(a);
 
         browsediv.append(div);
-    })
+    });
 }
 
 showBooks();

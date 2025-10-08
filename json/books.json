@@ -23,7 +23,7 @@
 	{
     "id:": 3,
     "name": "Charlotte's Web",
-    "Author": "E.B White",
+    "author": "E.B White",
     "price": 8.99,
     "releaseDate": "3/1/1973",
     "imagePath": "charlottesWeb.webp",
@@ -48,7 +48,7 @@
     "author": "Sarah J. Maas",
     "price": 12.99,
     "releaseDate": "5/5/2015",
-    "imagePath": "courAndThorn.jpg",
+    "imagePath": "courtAndThorn.jpg",
     "description": "A Court of Thorns and Roses by Sarah J. Maas is a fantasy novel that blends romance, adventure, and fae mythology. The story follows Feyre Archeron, a mortal huntress who is forced to live in the dangerous faerie lands after killing a wolf that was more than it seemed. There, she becomes entangled with Tamlin, a powerful High Fae, and discovers that a dark curse threatens both his world and her own.",
     "popularBook": false,
     "newBook": false
