@@ -264,11 +264,11 @@ main {
     text-align: left;
 }
 
-#galleryBook {
+.galleryBook {
     gap: 2%;
 }
 
-#galleryBook img {
+.galleryBook img {
     height: 600px;
 }
 
