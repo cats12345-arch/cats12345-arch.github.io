@@ -1,5 +1,5 @@
 [ {
-  	"id": 1,
+  	"id": 0,
     "name": "Lord of the Rings",
     "author": "J.R.R Tolkien",
     "price": 15.99,
@@ -10,7 +10,7 @@
     "newBook": false
   },
   {
-    "id": 2,
+    "id": 1,
     "name": "Crying in H Mart",
     "author": "Michelle Zauner",
     "price": 14.99,
@@ -21,7 +21,7 @@
     "newBook": false
   },
 	{
-    "id:": 3,
+    "id:": 2,
     "name": "Charlotte's Web",
     "author": "E.B White",
     "price": 8.99,
@@ -32,7 +32,7 @@
     "newBook": false
   },
   {
-    "id": 4,
+    "id": 3,
     "name": "A tale of Two Cities",
     "author": "Charles Dickens",
     "price": 9.99,
@@ -43,7 +43,7 @@
     "newBook": false
   },
   {
-    "id": 5,
+    "id": 4,
     "name": "A Court of Thorns and Roses",
     "author": "Sarah J. Maas",
     "price": 12.99,
@@ -54,7 +54,7 @@
     "newBook": false
   },
   {
-    "id": 6,
+    "id": 5,
     "name": "Harry Potter and the Sorcer's Stone",
     "author": "J.K. Rowling",
     "price": 9.99,
@@ -65,7 +65,7 @@
     "newBook": false
   },
   {
-    "id": 7,
+    "id": 6,
     "name": "Intermezzo",
     "author": "Sally Rooney",
     "price": 11.99,
@@ -76,7 +76,7 @@
     "newBook": false
   },
   {
-    "id": 8,
+    "id": 7,
     "name": "The Hundred Years' war on Palestine",
     "author": "Rashid Khalidi",
     "price": 12.99,
@@ -87,7 +87,7 @@
     "newBook": true
   },
   {
-    "id": 9,
+    "id": 8,
     "name": "The Lioness of Boston",
     "author": "Emily Franklin",
     "price": 16.99,
@@ -98,7 +98,7 @@
     "newBook": true
   },
   {
-    "id": 10,
+    "id": 9,
     "name": "A Little Frog's Guide to Self-Care",
     "author": "Maybell Eequay",
     "price": 7.99,
