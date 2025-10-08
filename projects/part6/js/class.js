@@ -1,5 +1,5 @@
 const getBooks = async() => {
-    const url = "https://cats12345-arch.github.io/projects/json/books.json";
+    const url = "https://cats12345-arch.github.io/json/books.json";
 
     try {
         const response = await fetch(url);
