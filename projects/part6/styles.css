@@ -221,7 +221,7 @@ main {
 }
 
 #browse img {
-    width: 500px;
+    height: 600px;
 }
 
 #browse p {
@@ -391,6 +391,10 @@ main {
 
     .hide-big {
         display: none;
+    }
+
+    li {
+        padding-right: 15px;
     }
     
 }
