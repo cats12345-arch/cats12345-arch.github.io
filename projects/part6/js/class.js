@@ -22,7 +22,7 @@ const showBooks = async() => {
 
         const div2 = document.createElement("div");
         const img = document.createElement("img");
-        img.src = book.imagePath;
+        img.src = `pictures/${book.imagePath}`;
 
         div2.append(img);
 
