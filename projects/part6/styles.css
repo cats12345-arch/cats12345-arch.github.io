@@ -240,6 +240,7 @@ main {
 }
 
 .in-center {
+    height: 600px;
     display: block;
     margin: auto;
 }
@@ -321,6 +322,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 30%;
+    flex-wrap: wrap;
 }
 
 .center-div img {
