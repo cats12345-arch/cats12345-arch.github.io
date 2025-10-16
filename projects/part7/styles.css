@@ -1,0 +1,409 @@
+.columns {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+}
+
+#body {
+    width: 95%;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+#map {
+    width:100%;
+    margin: 5%;
+    height:500px;
+}
+
+#absolute2 {
+    position: relative;
+    margin: 0px auto;
+}
+
+#relative2 {
+    position: absolute;
+    bottom: 3%;
+    padding-left: 10%;
+    padding-right: 3%;
+    background: rgb(255, 255, 255, .6);
+}
+
+/* Nav */
+#toggle-nav {
+    margin: 0 auto;
+}
+
+#toggle-nav div{
+    width:35px;
+    height:5px;
+    background-color: #587F86;
+    margin:6px auto;
+}
+
+#nav-items li {
+    font-size: 20px;
+    margin: 4px;
+}
+
+#sub-nav {
+    position:absolute;
+    top:0;
+    right:5px;
+}
+
+#main-nav ul, #sub-nav ul {
+    padding-left:0;
+}
+
+#main-nav li, #sub-nav li {
+    list-style-type: none;  /* remove the bullets */
+    text-align: center;
+}
+
+#nav-items li {
+    background: #8FB1EF;
+}
+
+
+.hide {
+    display: none;
+    margin: 0;
+}
+
+/* Header */
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+#main-nav .absolute {
+    top: 10px;
+    right: 0px;
+    
+}
+
+
+#header {
+    width: 90%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+#header h1 {
+    margin: 0px;
+    padding: 10px;
+}
+
+header {
+    background: #fcfcf3;
+    padding: 10px;
+}
+
+#header p{
+    padding-left: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* footers */
+footer {
+    width: 95%;
+}
+
+#footer {
+    justify-content: flex-end;
+}
+
+#footer p {
+    padding-left: 12px;
+}
+
+#footer p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* index.html */
+
+#info div {
+    margin: 15px;
+}
+
+#info h2 {
+    font-size: 32px;
+}
+
+/* Main */
+main {
+    width: 90%;
+    margin: auto;
+}
+
+
+#home {
+    background: #F2D6A2;
+}
+
+.bold {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#home main h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#home main p {
+    font-size: 24px;
+}
+
+/* image with text in it */
+/* Ok I know it looks stupid but im too lazy to change the html */
+#relative {
+    position: relative;
+    width: fit-content;
+    margin: auto;
+}
+
+#absolute {
+    position: absolute;
+    margin: auto;
+    bottom: 8%;
+    padding-left: 10%;
+    padding-right: 3%;
+    background: white;
+}
+
+.homeBanner {
+    max-height: 600px;
+    width: 2400px;
+}
+
+.bookClub {
+    max-width: 50%;
+}
+
+#weekly-bookclub {
+    border: 3px solid #a75502;
+}
+
+#weekly-bookclub div{
+    padding: 12px;
+}
+
+#weekly-bookclub h2 {
+    font-size: 32px;
+}
+
+/* browse.html */
+#full {
+    height: 600px;
+}
+
+main {
+    width: 90%;
+}
+
+#browse {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 3%;
+}
+
+#browse img {
+    height: 600px;
+}
+
+#browse p {
+    text-align: left;
+}
+
+#browse .center-div {
+    margin: 16px;
+}
+
+.hide-small {
+    display: none;
+}
+
+.thirty {
+    margin-top: 12px;
+}
+
+.in-center {
+    height: 600px;
+    display: block;
+    margin: auto;
+}
+
+.thirty img {
+    display: block;
+    margin: auto;
+}
+
+.thirty p {
+    text-align: center;
+}
+
+/* hotBooks.html */
+.thirty h1 {
+    text-align: left;
+}
+
+#hotBooks p {
+    text-align: left;
+}
+
+.galleryBook {
+    gap: 2%;
+}
+
+.galleryBook img {
+    height: 600px;
+}
+
+/* search.html */
+#space {
+    justify-content: space-between;
+}
+
+#search p {
+    font-weight: bold;
+}
+
+#space div p {
+    font-size: 32px;
+}
+
+.button {
+    margin-top: 24px;
+    margin-left: 0px;
+    padding: 12px;
+    display: inline;
+    background-color: lightslategray;
+}
+
+.searchPicture {
+    padding-top: 30px;
+}
+
+/* book.html */
+.fifty {
+    width: 48%;
+    align-items: center;
+}
+
+#book p {
+    padding-left: 12px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.fifty img {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.center {
+    text-align: center;
+}
+
+.center-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center-div img {
+    width: 100%;
+    height: 30%;
+}
+
+.bigger {
+    width: 800px;
+}
+/* About Us */
+#aboutUs h1 {
+    text-align: center;
+}
+
+/* adminTools.html */
+#adminTools p {
+    font-weight: bold;
+}
+
+#center {
+    text-align: center;
+}
+
+
+@media only screen and (min-width: 768px) {
+    #header {
+        text-align: left;
+    }
+
+    .columns-big {
+        display: flex;
+    }
+
+    .thirty {
+    width: 30%;
+    align-items: center;
+    }
+
+    .hide-small {
+        display: block;
+    }
+    
+    #hotBooks .center-div {
+    margin: auto;
+    width: 30%;
+    }
+
+    #main-nav li, #sub-nav li {
+        text-align: left;
+    }
+
+    #nav-items li {
+    background: #fcfcf3;
+    }
+
+    #hotBooks .center-div {
+        margin: 0px auto;
+    }
+
+    .hide {
+        display: flex;
+        margin: 0;
+    }
+
+    .hide-big {
+        display: none;
+    }
+
+    li {
+        padding-right: 15px;
+    }
+
+    .center-div {
+        width: 28%;
+    }
+    
+}
